@@ -2,10 +2,6 @@
 layout: default
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## A Random Forest example using the Iris dataset in R
 
 In this document I will show a simple example of using Random Forest to make some predictions.
