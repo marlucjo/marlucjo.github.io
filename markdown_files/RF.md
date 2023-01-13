@@ -1,9 +1,7 @@
 ---
-title: "Random Forest with Iris in R"
-author: "Luis Avila"
-date: "10/9/2017"
-output: html_document
+layout: default
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -125,32 +123,3 @@ plot(margin(iris_rf,testData$Species))
   #the accuracy
   print(sum(irisPred==testData$Species)/length(testData$Species))
 ```
-
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
