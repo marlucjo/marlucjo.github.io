@@ -3,4 +3,4 @@ logo: /assets/img//logo.png
 description: A place to share my notes
 theme: jekyll-theme-minimal
 google_analytics:
-show_downloads: true
+show_downloads: false
