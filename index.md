@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](rst_files/publicaciones.rst).
+[Link to another page](https://iruelas.wordpress.com/).
 
 There should be whitespace between paragraphs.
 
