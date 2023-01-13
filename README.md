@@ -1,11 +1,5 @@
 ## Welcome to my GitHub projects page
 
-### Py Tutorials
-
-### R Tutorials
-
-- [Ejemplo .Rmd](/markdown_files/index.Rmd)
-
 ### References
 
 1. [Quickstart](https://docs.github.com/es/pages/quickstart)
