@@ -4,3 +4,9 @@ logo: https://pbs.twimg.com/profile_images/378800000795058910/d611cb4aa977700fa8
 description: A place to share my notes
 google_analytics:
 show_downloads: false
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
