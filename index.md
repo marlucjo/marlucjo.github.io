@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](https://iruelas.wordpress.com/).
+[Link to another page](/markdown_files/another_page.md).
 
 There should be whitespace between paragraphs.
 
