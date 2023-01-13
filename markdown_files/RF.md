@@ -9,9 +9,9 @@ First I will do some data exploration using the IRIS dataset, including Principa
 The Iris dataset is included in R core.
 The Random Forest example is at the end of the document.
 
-Most of the RF code found here (http://rischanlab.github.io/RandomForest.html)
+Most of the RF code found here <http://rischanlab.github.io/RandomForest.html>
 
-For PCA I took inspiration from https://www.r-bloggers.com/computing-and-visualizing-pca-in-r/
+For PCA I took inspiration from <https://www.r-bloggers.com/computing-and-visualizing-pca-in-r/>
 
 ### Some preliminary exploratory analysis of the iris dataset
 
