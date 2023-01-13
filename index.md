@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](/markdown_files/another_page.md).
+[Link to another page](/markdown_files/RF.md).
 
 There should be whitespace between paragraphs.
 
