@@ -14,8 +14,8 @@ GitHub is a code hosting platform for version control and collaboration. It lets
 
 # References
 
-
+1. [Quickstart](https://docs.github.com/es/pages/quickstart)
 
 # Style
 
-[Style guide](/markdown_files/style.md)
+1. [Style guide](/markdown_files/style.md)
