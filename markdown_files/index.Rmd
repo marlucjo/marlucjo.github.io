@@ -1,4 +1,7 @@
 ---
+layout: default
+---
+---
 title: "Índice"
 author: "Josemi"
 date: "13/01/2023"
