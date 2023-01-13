@@ -11,4 +11,4 @@
 
 - [Quickstart](https://docs.github.com/es/pages/quickstart)
 - [The Minimal theme](https://github.com/pages-themes/minimal)
-- [Learn Markdown reference](https://learn.microsoft.com/en-us/contribute/markdown-reference)
+- [Learn Markdown reference](https://www.markdownguide.org/basic-syntax)
