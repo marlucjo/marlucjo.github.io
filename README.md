@@ -2,7 +2,7 @@
 
 ### R Tutorials
 
-- [Ejemplo .Rmd](index.Rmd)
+- [Ejemplo .Rmd](/markdown_files/index.Rmd)
 - [Ej. Classification with Random Forest](https://lmavila.github.io/markdown_files/RF_Toy.html)
 
 ### References
