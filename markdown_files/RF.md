@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -14,13 +13,11 @@ First I will do some data exploration using the IRIS dataset, including Principa
 The Iris dataset is included in R core.
 The Random Forest example is at the end of the document.
 
-
 Most of the RF code found here (http://rischanlab.github.io/RandomForest.html)  
 For PCA I took inspiration from https://www.r-bloggers.com/computing-and-visualizing-pca-in-r/
 
-
-
 ### Some preliminary exploratory analysis of the iris dataset
+
 ```{r ggplot2}
  set.seed(12345)
  data(iris)
@@ -31,9 +28,7 @@ For PCA I took inspiration from https://www.r-bloggers.com/computing-and-visuali
  boxplot(iris$Sepal.Width ~ iris$Species,ylab="Sepal.Width")
  boxplot(iris$Petal.Length ~ iris$Species,ylab="Petal.Length")
  boxplot(iris$Petal.Width ~ iris$Species,ylab="Petal.Width")
- 
 ```
-
 
 We can see that petal descriptors show more differentiation betwen species tat sepal descriptors and that virginica and versicolor are closer to each other than to setosa for most variables.
 
@@ -45,7 +40,6 @@ We can see that petal descriptors show more differentiation betwen species tat s
         legend=levels(as.factor(iris$Species)),
         col=c("black","red","green"), 
         pch=c(16) )
- 
 ```
 
 ### Using PCA to show differentiation between species. We won't try to predict anything with PCA for this example.
@@ -72,6 +66,7 @@ We notice the species separate over PC1. Still some overlp between versicolor an
 ## Now using the Random Forest  method
 
 ### First we split iris data into a training and a testing set
+
 70% of the data will be used for training the model.
 
 ```{r}
@@ -85,6 +80,7 @@ head(trainData)
 head(testData)
 ```
 ### Loading randomForest package and generating the Random Forest Learning Tree
+
 If the package has not been installed previously you might need to install it with `install.packages("randomForest")`
 ```{r, message=FALSE, warning=FALSE}
 library(randomForest)
@@ -96,6 +92,7 @@ print(iris_rf)
 We can see that usin the current training data RF has no problem identifying the setosa individuals (class.error=0) but there is more uncertainty for assignment to the classes versicolor and virginica (clas.error ~ 0.08).
 
 ## Importance of the class descriptors
+
 ```{r}
 importance(iris_rf)
 ```
@@ -103,6 +100,7 @@ importance(iris_rf)
 We can see that Petal.width and Petal.length are the more important descriptors that differentiate between species as shown before by PCA and just plotting this variables.
 
 ## Now we build a random forest for our testing data
+
 ```{r}
   irisPred<-predict(iris_rf,newdata=testData)
   table(irisPred, testData$Species)
@@ -114,6 +112,7 @@ plot(margin(iris_rf,testData$Species))
 ```
 
 ## And checking the classification accuracy
+
 ```{r}
   #The number of correct predictions
   print(sum(irisPred==testData$Species))
