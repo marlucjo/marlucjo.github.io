@@ -1,0 +1,12 @@
+---
+title: "Índice"
+author: "Josemi"
+date: "13/01/2023"
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Índice
