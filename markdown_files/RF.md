@@ -71,7 +71,7 @@ We notice the species separate over PC1. Still some overlp between versicolor an
 
 ## Now using the Random Forest  method
 
-###First we split iris data into a training and a testing set
+### First we split iris data into a training and a testing set
 70% of the data will be used for training the model.
 
 ```{r}
