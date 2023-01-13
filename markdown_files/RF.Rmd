@@ -2,7 +2,7 @@
 title: "Random Forest with Iris in R"
 author: "Luis Avila"
 date: "10/9/2017"
-output: rmarkdown::github_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
