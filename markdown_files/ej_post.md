@@ -6,5 +6,7 @@ comments: true
 published: true
 categories: ["post"]
 tags: ["jekyll","python","front matter"]
-author: Josemi
+author: marlucjo
 ---
+
+Esto es un ejemplo de post
