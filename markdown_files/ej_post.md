@@ -9,9 +9,12 @@ tags: ["jekyll","python","front matter"]
 author: marlucjo
 ---
 
-Esto es un ejemplo de post
+Esto es un ejemplo de post. Utilizando el código siguiente podemos automatizar su creación desde python
 
 ```{python}
+
+# https://www.krisvandermast.com/post/2022/03/08/python-script-to-generate-a-new-jekyll-post-with-front-matter.html
+
 import argparse
 from datetime import datetime
 
@@ -50,5 +53,4 @@ if __name__ == "__main__":
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     write_frontmatter(args, current_time)
-
 ```
