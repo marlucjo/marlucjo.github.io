@@ -11,6 +11,7 @@ author: marlucjo
 
 Esto es un ejemplo de post
 
+```{python}
 import argparse
 from datetime import datetime
 
@@ -49,3 +50,5 @@ if __name__ == "__main__":
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     write_frontmatter(args, current_time)
+
+```
