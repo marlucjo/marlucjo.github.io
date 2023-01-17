@@ -11,7 +11,7 @@ GitHub is a code hosting platform for version control and collaboration. It lets
 1. Topic 1
 2. Topic 2
 3.  ...
-4. [Post](/markdown_files/20230117.md)
+4. [Post](/markdown_files/ej_post.md)
 
 # References
 
