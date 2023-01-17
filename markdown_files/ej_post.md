@@ -11,7 +11,7 @@ author: marlucjo
 
 Esto es un ejemplo de post. Utilizando el código siguiente podemos automatizar su creación desde python
 
-```{python}
+```python
 
 # https://www.krisvandermast.com/post/2022/03/08/python-script-to-generate-a-new-jekyll-post-with-front-matter.html
 
