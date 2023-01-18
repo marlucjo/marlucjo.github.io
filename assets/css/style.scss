@@ -1,1 +1,8 @@
+---
+---
+@import "{{ site.theme }}";
 
+#header_wrap {
+    background: url(portada.jpg) no-repeat center center;
+    background-size: cover;
+}
