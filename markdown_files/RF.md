@@ -1,6 +1,6 @@
 ---
 layout: default
-id: getting-started
+id: RF
 ---
 
 ## A Random Forest example using the Iris dataset in R
