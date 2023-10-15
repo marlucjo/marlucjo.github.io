@@ -5,3 +5,12 @@ logo: https://pbs.twimg.com/profile_images/378800000795058910/d611cb4aa977700fa8
 description: A place to share my notes
 google_analytics:
 show_downloads: false
+sidebar:
+  - getting-started
+  - label: Customization
+    children:
+      - sidebar
+      - search
+      - relative-nav
+      - additional-config
+  - development
